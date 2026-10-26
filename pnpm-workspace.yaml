@@ -1,3 +1,6 @@
 allowBuilds:
   sharp: false
   unrs-resolver: false
+overrides:
+  # Correctif que les paquets parents (outils de lint) figent encore.
+  brace-expansion@5: ^5.0.12
